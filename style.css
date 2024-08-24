@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Swiss, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  color: #1971c2;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header,
+section {
+  margin-bottom: 80px;
+}
+
+h2 {
+  margin-bottom: 48px;
+  margin-top: 24px;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: none;
+  column-gap: 80px;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #ffd43b;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 16px 32px;
+  display: inline-block;
+  border-radius: 100px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #f59f00;
+}
+
+.btn--big {
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+.btn--small {
+  font-size: 16px;
+  padding: 8px 12px;
+}
+
+img {
+  border-radius: 12px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 64px;
+}
+
+.header-text-box {
+  font-family: sans-serif;
+  align-self: center;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+.header-text {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+img {
+  width: 100%;
+}
+
+.features-title {
+  margin-bottom: 14px;
+  font-size: 20px;
+}
+.features-text {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.features-icon {
+  stroke: #fcc419;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 24px;
+}
+
+.testimonial-section {
+  background-color: #1971c2;
+  color: #fff;
+  padding: 14px;
+  border-radius: 12px;
+}
+
+.testimonial-box {
+  grid-column: 2/ -1;
+  align-self: center;
+}
+.testimonoial-box h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #fff0f6;
+}
+
+.testimonial-author {
+  justify-content: space-between;
+  color: #fff0f6;
+}
+
+.strawberrie-box {
+  padding: 24px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.serum img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.foundation img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.nailpolish img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+h3 {
+  margin-top: 24px;
+}
+
+.serum-details li {
+  display: flex;
+  list-style: none;
+  margin-bottom: 24px;
+  align-items: center;
+  gap: 12px;
+}
+
+.foundation-details li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.nailpolish-details li:last-child {
+  margin-bottom: 24px;
+  align-items: center;
+  gap: 12px;
+}
+.serum-price {
+  display: flex;
+  justify-content: space-between;
+}
+.foundation-price {
+  display: flex;
+  justify-content: space-between;
+}
+.nail polish-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.serum-icon {
+  stroke: hsla(36, 100%, 50%, 0.623);
+  width: 20px;
+  height: 20px;
+}
+
+.serum-icon1 {
+  stroke: hsla(36, 100%, 50%, 0.623);
+  width: 46px;
+  height: 36px;
+}
+.foundation-icon {
+  stroke: #fcc419;
+  width: 24px;
+  height: 24px;
+}
+
+.nailpolish-icon {
+  stroke: #fcc419;
+  width: 24px;
+  height: 24px;
+}
+
+.nailpolish img {
+  height: 18px;
+  width: 18px;
+  border-radius: 12px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.footer {
+  background-color: #1971c2;
+}
